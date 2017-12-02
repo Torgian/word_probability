@@ -20,5 +20,12 @@ This continues down the list. "over" is followed by "the" and "a", therefore:
 
 "over" => ["the", "a"]
 
+===================================
 
-Work in progress.
+Right now the majority of the working code is done. I need to update the code to return percentages
+of each word-pairs. 
+
+There will be two sets: major-word-pair percentages (words that have more than one word following it)
+and minor-word-pair percentages (words that only have one word following it throughout the whole text.)
+
+Once that is complete, I will need to write up some HTML and javascript to visualize it.

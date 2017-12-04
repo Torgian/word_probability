@@ -22,10 +22,12 @@ This continues down the list. "over" is followed by "the" and "a", therefore:
 
 ===================================
 
-Right now the majority of the working code is done. I need to update the code to return percentages
-of each word-pairs. 
+Percentages are written in. I also refactored the code a bit.
 
-There will be two sets: major-word-pair percentages (words that have more than one word following it)
-and minor-word-pair percentages (words that only have one word following it throughout the whole text.)
+Major and minor word pairs are found using the functions find_major/minor_pairs. After that, percentages
+can be found with major/minor percentages. 
 
-Once that is complete, I will need to write up some HTML and javascript to visualize it.
+Right now the program returns the major/minor percentages, as well as the sum of both. Floats are reduced
+to 2 decimal places.
+
+Next is to write up HTML and Javascript to visualize the pie graph.
